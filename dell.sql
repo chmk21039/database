@@ -1,0 +1,20 @@
+--SELECT * FROM 貸出;
+--SELECT * FROM 貸出明細;
+--SELECT * FROM 学生;
+--SELECT * FROM 書籍;
+--SELECT * FROM 著者;
+--SELECT * FROM 出版社;
+--DROP VIEW 未返却;
+DROP TABLE IF EXISTS 貸出明細;
+DROP TABLE IF EXISTS 貸出;
+DROP TABLE IF EXISTS 学生;
+DROP TABLE IF EXISTS 書籍;
+DROP TABLE IF EXISTS 書籍著者;
+DROP TABLE IF EXISTS 著者;
+DROP TABLE IF EXISTS 出版社;
+DROP DATABASE book;
+--DROP TABLE 口座;
+
+--DROP INDEX index_attr3, index_attr2, index_attr1;
+--ALTER TABLE bench DROP COLUMN id, attr1, attr2, attr3;
+--DROP TABLE IF EXISTS bench;
